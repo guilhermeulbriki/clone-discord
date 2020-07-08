@@ -30,7 +30,7 @@ const ChannelMessage: React.FC<Props> = ({
 
             <time>{date}</time>
          </Header>
-         <Content>Hoje é o meu aniversário</Content>
+         <Content>{content}</Content>
       </Message>
     </Container>
   );
